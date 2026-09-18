@@ -48,7 +48,7 @@ A interface utiliza elementos como cards, botões, efeitos de hover, navegação
 
 ## 🌐 Projeto online
 
-[🔗 Acessar o projeto](COLE-AQUI-O-LINK-DO-GITHUB-PAGES)
+[🔗 Acessar o projeto](https://lukanascimentosilva12.github.io/Empresa-Tec/)
 
 ## ▶️ Como executar
 
