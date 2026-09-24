@@ -399,3 +399,261 @@ footer {
 
     color: #888;
 }
+
+/* =========================
+   RESPONSIVIDADE - CELULAR
+   ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 70px;
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        height: auto;
+        min-height: 70px;
+        padding: 10px 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        flex: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #botao {
+        padding: 8px 18px;
+        margin: 5px;
+    }
+
+
+    /* HEADER */
+    .header {
+        height: auto;
+        min-height: 500px;
+        padding: 50px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headline {
+        margin-left: 0;
+        width: 100%;
+        flex: none;
+    }
+
+    .headline h2 {
+        font-size: 18px;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+
+    /* MAIN / HERO */
+    .main {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+        margin: 20px 0;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .main img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+
+    /* CARDS */
+    .container {
+        padding: 60px 20px 80px;
+    }
+
+    .titulo-secao {
+        font-size: 32px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+        min-height: auto;
+    }
+
+
+    /* DIFERENCIAIS */
+    .diferenciais {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .diferenciais-texto {
+        width: 100%;
+    }
+
+    .diferenciais-texto h2 {
+        font-size: 32px;
+    }
+
+    .diferenciais-texto > p {
+        font-size: 16px;
+    }
+
+    .lista-diferenciais {
+        text-align: left;
+    }
+
+    .diferenciais-imagem {
+        width: 100%;
+    }
+
+    .circulo {
+        width: 220px;
+        height: 220px;
+        font-size: 32px;
+    }
+
+
+    /* PROCESSO */
+    .processo {
+        padding: 60px 20px;
+    }
+
+    .titulo-processo {
+        font-size: 32px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .etapas {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .etapa {
+        width: 100%;
+    }
+
+
+    /* CTA */
+    .cta {
+        padding: 60px 20px;
+    }
+
+    .cta h2 {
+        font-size: 32px;
+    }
+
+    .cta p {
+        font-size: 16px;
+    }
+
+    .cta a {
+        padding: 13px 25px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        padding-top: 40px;
+    }
+
+    .footer-container {
+        width: 90%;
+        flex-direction: column;
+        gap: 35px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .footer-logo h2 {
+        font-size: 26px;
+    }
+
+    .footer-bottom {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+}
+
+
+/* CELULARES PEQUENOS */
+@media (max-width: 480px) {
+
+    .navbar a {
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .titulo-secao,
+    .titulo-processo {
+        font-size: 28px;
+    }
+
+    .diferenciais-texto h2 {
+        font-size: 28px;
+    }
+
+    .cta h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        padding: 25px 20px;
+    }
+
+    .circulo {
+        width: 190px;
+        height: 190px;
+        font-size: 28px;
+    }
+}
